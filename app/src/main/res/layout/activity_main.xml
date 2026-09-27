@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ELDERGUARD"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="#2C3E50"
+        android:layout_marginBottom="40dp" />
+
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="START MONITOR"
+        android:backgroundTint="#27AE60"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnTest"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="TEST FALL ALERT"
+        android:backgroundTint="#E67E22"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnNav"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="GO TO AIRPORT"
+        android:backgroundTint="#8E44AD"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnMeds"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:text="MY MEDICATIONS"
+        android:backgroundTint="#2980B9"
+        android:textColor="#FFFFFF" />
+
+</LinearLayout>
